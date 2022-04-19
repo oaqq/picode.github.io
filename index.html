@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-    <title>图片化打包</title>
+    <title>图片化打包Encrypt files into the picture</title>
     <style>
       .pad1{
         padding:0.5rem 0;
@@ -26,18 +26,38 @@
     </style>
   </head>
   <body>
-    <h1>图片加密、解码</h1>
+    <h1>图片加密、解码Encrypt And Decrypt</h1>
     <details open>
-        <summary>使用方法详细说明</summary>
+        <summary><span style="color:#ff0e00">使用方法详细说明</summary>
         <div>
-          1：这是一个可以将不方便在互联网展示的图片经过加密处理后发送到互联网的工具【制作加密文件】<br />2：同时也是个可以将别人的加密文件还原成原始图片的工具【解密下载文件】<br /><span style="color:#ff4d00">使用方法：<br />制作加密：（打开下方“▶制作加密文件”栏）点击第2项末尾【选择文件】按钮，选择并添加希望加密的文件，（设置其他加密细节，嫌麻烦可以不用改）最后点击【加密打包】按钮即可在下方生成加密了文件的图片，下载该图片到电脑后即可使用（切勿用拍屏，截图等方法存储此生成的图片）<br />文件解密：（打开下方“▶解密下载文件”栏）点击【选择文件】，弹出窗口选择别人发给你的“加密图片”，（如果有密码，点击【待解密】按钮，填写密码后确定。没有密码的话不填）最后点击【成功】按钮即可在下方看到内容。<br /><br />问题汇总：<br />（加密者：如果别人反映你制作的加密图片无法解码，很有可能因为你上传至网络的加密图并非本工具制作生成的原图，也可能网站或聊天工具私自对你上传的图片进行了压缩转码）<br />（解密者：如果解码失败，很有可能因为你下载的加密图并非制作者发布的原图）<br /></span>
+        1：这是一个可以将不方便在互联网展示的图片经过加密处理后发送到互联网的工具【制作加密文件】<br />2：同时也是个可以将别人的加密文件还原成原始图片的工具【解密下载文件】<br />3：The tool can remove the mosaic of my artwork in pixiv
+          <br /><span style="color:#2d2dff">使用方法：<br />制作加密：（打开下方“▶制作加密文件”栏）点击第2项末尾【选择文件】按钮，选择并添加希望加密的文件，（设置其他加密细节，嫌麻烦可以不用改）最后点击【加密打包】按钮即可在下方生成加密了文件的图片，下载该图片到电脑后即可使用（切勿用拍屏，截图等方法存储此生成的图片）<br />文件解密：（打开下方“▶解密下载文件”栏）点击【选择文件】，弹出窗口选择别人发给你的“加密图片”，（如果有密码，点击【待解密】按钮，填写密码后确定。没有密码的话不填）最后点击【成功】按钮即可在下方看到内容。<br /><br /><span style="color:#ff4d00">问题汇总：<br />（加密者：如果别人反映你制作的加密图片无法解码，很有可能因为你上传至网络的加密图并非本工具制作生成的原图，也可能网站或聊天工具私自对你上传的图片进行了压缩转码）<br />（解密者：如果解码失败，很有可能因为你下载的加密图并非制作者发布的原图）<br /></span>
         </div>
         <div>
-          此工具可以利用网页下载到电脑离线使用。该工具源版来自：百度（图片文件夹吧）贴吧，注释解释说明：OTA
+          此工具可以利用网页下载到电脑离线使用。该工具源版来自：百度（图片文件夹吧）贴吧，二次注释解释说明：OTA
         </div>
     </details>
+    
+        <details>
+        <summary><span style="color:#ff0e00">【使用方法图示】Usage demonstration</summary>
+        <div>
+
+        <h3 class="item">加密Encrypt <img class="logo" src="jiami.gif"></h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h3 class="item">解密Decrypt <img class="logo" src="jiemi.gif"></h3>
+        </div>
+        <div>
+        </div>
+    </details>
+    
+    
+    
     <details>
-      <summary>制作加密文件（分享者用）</summary>
+      <summary>制作加密文件（分享者用）Encryption</summary>
       <div class="pad2">
       1：选择表图（此项可以不选，工具自动会生成）&ensp;
       <input id="ipt3" type="file" accept="image/*" multiple />
@@ -67,7 +87,7 @@
       </div>
     </details>
     <details>
-      <summary>解密下载文件（伸手党用）</summary>
+      <summary>解密下载文件（伸手党用）Decipher</summary>
       <div id="decodeipt" class="pad1">
       <button id="clear">&ensp;清空&ensp;</button>&emsp;
       </div>
